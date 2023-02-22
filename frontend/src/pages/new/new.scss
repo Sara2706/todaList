@@ -1,0 +1,97 @@
+.newWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .newCont {
+        width: 35%;
+        padding: 15px 0;
+        background-color: rgb(226, 226, 226);
+        border: 1px solid rgb(54, 54, 54);
+        border-radius: 5px;
+
+        h3 {
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(82, 82, 82);
+        }
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .todoInput {
+                width: 85%;
+                margin-bottom: 5px;
+                label {
+                    display: block;
+                    font-weight: 500;
+                    color: rgb(129, 129, 129);
+                    margin-bottom: 5px;
+                }
+
+                input {
+                    height: 30px;
+                    width: 100%;
+                    outline: none;
+                }
+
+                textarea {
+                    width: 100%;
+                    resize: none;
+                    outline: none;
+                }
+                p {
+                    padding: 0;
+                    margin: 0;
+                    text-align: right;
+                }
+            }
+            .actions {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                button {
+                    width: max-content;
+                    padding: 3px 7px;
+                    border: 2px solid teal;
+                    border-radius: 5px;
+                    outline: none;
+                    color: teal;
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-size: 14px;
+                    background: none;
+
+                    &:hover {
+                        background-color: teal;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .newWrapper {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .newCont {
+            width: 95%;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

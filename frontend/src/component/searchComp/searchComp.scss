@@ -1,0 +1,27 @@
+.searchWrapper{
+    padding: 15px;
+    background: rgb(63,94,251);
+    background: linear-gradient(141deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    input{
+        width: 85%;
+        margin-right: 5px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 3px;
+        outline: none;
+        padding: 5px;
+    }
+
+    button{
+        border: 1px solid black;
+        padding: 3px 10px;
+        background-color: black;
+        color:white;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}

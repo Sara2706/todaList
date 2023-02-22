@@ -1,0 +1,41 @@
+.todoItem{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    margin: 5px 0;
+
+    .title{
+        width: 30%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .todoItem{
+      
+    
+        .title{
+            width: 30%;
+            overflow: hidden;
+
+            h3{
+                font-size: 15px;
+                font-weight: bold;
+                padding: 10px 0;
+            }
+        }
+
+        .status{
+            font-size: 14px;
+        }
+
+        .chengeStatus{
+            font-size: 13px;
+        }
+    }
+    
+}
